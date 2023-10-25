@@ -38,7 +38,22 @@ var data = [{
    title: "Erika Eleniak",
    text: "Lorem ipsum dolor sit amed.".repeat(50),
    pic: "Img/Erika Eleniak.jpg"
+},
+{
+title: "Pamela Anderson",
+text:"",
+pic:"Img/nintchdbpict000249459261-e1468422550549.jpg"
 },{
+   title: "Brandy Langford",
+   text: "Hot blonde who loves eat cum.",
+   pic: "Img/MV5BYzAzZGU3ZDMtOThhYy00NTRmLTlhOGUtMTIwZDRkZmVlMGIzXkEyXkFqcGdeQXVyMzkyOTg1MzE@._V1_.jpg"
+},
+{
+   title: "Stacy Kamano",
+   text: "Hot hawaiian honey.",
+   pic: "Img/main_1501812461-Stacy-Kamano-Signed-Baywatch-Hawaii-8x10-Photo-JSA-COA-PristineAuction.com.jpg"
+},
+{
    title: "Brande Roderick",
    text: "Lorem ipsum dolor sit amed.",
    pic: "Img/Brande Roderick.jpg"
