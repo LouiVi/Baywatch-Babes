@@ -1,7 +1,7 @@
 ,{
-   title: "Brandy Langford",
+   title: "Rebecca Marley",
    text: "Hot blonde who loves eat cum.",
-   pic: "Img/MV5BYzAzZGU3ZDMtOThhYy00NTRmLTlhOGUtMTIwZDRkZmVlMGIzXkEyXkFqcGdeQXVyMzkyOTg1MzE@._V1_.jpg"
+   pic: "Img/p1035629_e_v10_ab.jpg"
 }
 
 Img/main_1501812461-Stacy-Kamano-Signed-Baywatch-Hawaii-8x10-Photo-JSA-COA-PristineAuction.com.jpg
@@ -11,4 +11,3 @@ Img/main_1501812461-Stacy-Kamano-Signed-Baywatch-Hawaii-8x10-Photo-JSA-COA-Prist
    text: "Hot hawaiian honey.",
    pic: "Img/main_1501812461-Stacy-Kamano-Signed-Baywatch-Hawaii-8x10-Photo-JSA-COA-PristineAuction.com.jpg"
 },
-

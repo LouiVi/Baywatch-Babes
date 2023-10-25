@@ -56,7 +56,12 @@ pic:"Img/nintchdbpict000249459261-e1468422550549.jpg"
 {
    title: "Brande Roderick",
    text: "Lorem ipsum dolor sit amed.",
-   pic: "Img/Brande Roderick.jpg"
+   pic: "Img/baywatch.leigh-dyer.jpg"
+   }
+,{
+   title: "Rebecca Marley",
+   text: "Hot blonde who loves eat cum.",
+   pic: "Img/p1035629_e_v10_ab.jpg"
 }, {
     title: "Krista Allen",
     text: "Lorem ipsum dolor sit amed.",
