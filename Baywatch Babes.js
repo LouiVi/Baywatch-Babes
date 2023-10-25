@@ -36,7 +36,7 @@ var data = [{
    pic: "Img/Nicole Eggert.jpg"
 },  {
    title: "Erika Eleniak",
-   text: "Lorem ipsum dolor sit amed.".repeat(50),
+   text: "Lorem ipsum dolor sit amed. \r\n\r\n".repeat(50),
    pic: "Img/Erika Eleniak.jpg"
 },
 {
@@ -70,12 +70,14 @@ pic:"Img/nintchdbpict000249459261-e1468422550549.jpg"
     title: "Simmone MacKinnon",
     text: "Lorem ipsum dolor sit amed.",
    pic: "Img/Simmone MacKinnon.jpg"
-}]
-function Buy(items)
-{
-alert(items.length);
-	alert(JSON.stringify(items));
-}
+}, {
+    title: "Various Bitches",
+    text: "Lorem ipsum dolor sit amed.",
+   pic: "Img/83b55d0fcf51696344c58c22cb0e055a.jpg"
+   }];
+//alertitems.length);
+	//alert(JSON.stringify(items));
+
 
 //Called when application is started.
 function OnStart()
@@ -85,15 +87,15 @@ rColor = "#E3697A";
    //Switch off debugging for max performance.
    app.SetDebugEnabled( false )
    app.EnableBackKey( false )
-   pls = app.CreatePlayStore();
-p = pls.GetPurchases( Buy, null )
+   //pls = app.CreatePlayStore();
+//p = pls.GetPurchases( Buy, null )
    //Lock screen orientation. It is not rotatable within the application.
    app.SetOrientation( app.GetOrientation() )
 
    canvas = app.CreateLayout( "Absolute", "FillXY" )
    canvas.SetBackground( "/res/drawable/pattern_carbon", "repeat");
 	
-	canvas.SetColorFilter( rColor, "overlay"  )
+	canvas.SetColorFilter( rColor, "color_dodge");//overlay"  )
 	canvas.SetBackAlpha( 0.74 );
 
    scroller = app.AddScroller( canvas, 1, 1, "ScrollFade" )
@@ -124,12 +126,12 @@ p = pls.GetPurchases( Buy, null )
    layInfo.SetBackAlpha( 0.9 )
    layInfo.Hide()
 
-   btnBack = app.AddText( layInfo, "[fa-arrow-left] Back", -1, -1, "fontawesome" )
+   btnBack = app.AddButton( layInfo, "[fa-arrow-left] Back", -1, -1, "fontawesome,lego" )
    btnBack.SetTextColor( "#696969" )
    btnBack.SetTextShadow(5,0,0, "#cdcdcd" )
    btnBack.SetTextSize( 34, "px" )
    btnBack.SetMargins( 0.1, isPortrait ? 0.025 : 0.05 )
-   btnBack.SetOnTouchUp( FlipToBack )
+   btnBack.SetOnTouch( FlipToBack )
    btnBack.Hide()
 
    infoTitle = app.AddText( layInfo, "", 1, isPortrait ? 0.3 : 0.2 )
